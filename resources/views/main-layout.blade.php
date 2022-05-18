@@ -7,7 +7,8 @@
     <title>DC-COMICS</title>
 </head>
 <body>
-    <header>HEADER</header>
+    <!--header>HEADER</header-->
+    @include('partials/header')
 
     <main>
         <div id="card-section">SEZIONE</div>
@@ -15,6 +16,7 @@
         <div id="contact-section">SEZIONE</div>
     </main>
 
-    <footer>FOOTER</footer>
+    @include('partials/footer')
+    <!--footer>FOOTER</footer-->
 </body>
 </html>
