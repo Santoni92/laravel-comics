@@ -11,7 +11,9 @@
     @include('partials/header')
 
     <main>
-        <div id="card-section">SEZIONE</div>
+        <div id="card-section">
+            @yield('lista')
+        </div>
         <div id="merchandising-section">SEZIONE</div>
         <div id="contact-section">SEZIONE</div>
     </main>
