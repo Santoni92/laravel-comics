@@ -7,14 +7,14 @@
     <title>DC-COMICS</title>
 </head>
 <body>
-    <header></header>
+    <header>HEADER</header>
 
     <main>
-        <div id="card-section"></div>
-        <div id="merchandising-section"></div>
-        <div id="contact-section"></div>
+        <div id="card-section">SEZIONE</div>
+        <div id="merchandising-section">SEZIONE</div>
+        <div id="contact-section">SEZIONE</div>
     </main>
 
-    <footer></footer>
+    <footer>FOOTER</footer>
 </body>
 </html>
