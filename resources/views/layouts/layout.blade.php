@@ -1,4 +1,4 @@
-@extends('main-layout')
+@extends('home')
 
 @section('lista')
 <h2>Lista dei fumetti</h2>
