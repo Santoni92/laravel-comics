@@ -1,5 +1,5 @@
 <header>
     <nav>
-        <img src="../../public/images/dc-logo.png" alt="">
+        <img src="/images/dc-logo.png" alt="">
     </nav>
 </header>
