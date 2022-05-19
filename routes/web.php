@@ -21,4 +21,8 @@ Route::get('/', function () {
    return view('home',["fumetti"=>$data,"linksHeader"=> $menuHeader]);
 });
 
+Route::get('/cardDetail',function(){
+    $data = config('comics');
+    return view('cardDetail',["fumetti"=>$data[0]]);
+});
 

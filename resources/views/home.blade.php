@@ -10,8 +10,10 @@
     <div class="card-container">
          @foreach($fumetti as $fumetto)
             <div class="card-item">
-                <img src="{{ $fumetto['thumb'] }}" alt="">
-                <span>{{ $fumetto['series'] }}</span>
+                <a href="cardDetail"><!--link alla pagina di dettaglio del singolo fumetto-->
+                    <img src="{{ $fumetto['thumb'] }}" alt="">
+                    <span>{{ $fumetto['series'] }}</span>
+                </a>
             </div>
          @endforeach
     </div>
