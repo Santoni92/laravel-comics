@@ -1,5 +1,4 @@
 @extends('main-layout')
-@include('config/comics')
 
 @section('lista')
 <h2>Lista dei fumetti</h2>
