@@ -8,7 +8,7 @@
 </head>
 <body>
     <!--header>HEADER</header-->
-    @include('partials/header')
+    @include('partials.header')
 
     <main>
         <div id="card-section">
@@ -18,7 +18,7 @@
         <div id="contact-section">SEZIONE</div>
     </main>
 
-    @include('partials/footer')
+    @include('partials.footer')
     <!--footer>FOOTER</footer-->
 </body>
 </html>
