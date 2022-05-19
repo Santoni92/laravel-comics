@@ -23,6 +23,7 @@ Route::get('/', function () {
 
 Route::get('/cardDetail',function(){
     $data = config('comics');
-    return view('cardDetail',["fumetti"=>$data[0]]);
+    $menuHeader = config('menu-header');
+    return view('cardDetail',["fumetti"=>$data[0],"linksHeader"=> $menuHeader]);
 });
 
