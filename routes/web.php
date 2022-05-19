@@ -17,7 +17,8 @@ Route::get('/', function () {
    //return view('welcome');
 
    $data = config('comics');
-   return view('home',["fumetti"=>$data]);
+   $menuHeader = config('menu-header');
+   return view('home',["fumetti"=>$data,"linksHeader"=> $menuHeader]);
 });
 
 

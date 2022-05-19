@@ -9,10 +9,10 @@
     @endforeach-->
     <div class="card-container">
          @foreach($fumetti as $fumetto)
-        <div class="card-item">
-            <img src="{{ $fumetto['thumb'] }}" alt="">
-            <span>{{ $fumetto['series'] }}</span>
-         </div>
+            <div class="card-item">
+                <img src="{{ $fumetto['thumb'] }}" alt="">
+                <span>{{ $fumetto['series'] }}</span>
+            </div>
          @endforeach
     </div>
 @endsection

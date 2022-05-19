@@ -1,7 +1,33 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
 /****************header*****************/
+
+header img {
+  width: 50px;
+}
 
 header nav {
   display: flex;
+  justify-content: space-around;
+}
+
+header nav a {
+  text-decoration: none;
+}
+
+header nav .active {
+  text-decoration: underline;
+}
+
+header nav ul {
+  display: flex;
+  flex-grow: 1;
+  justify-content: space-between;
+  list-style-type: none;
 }
 
 /****************main****************/
@@ -9,6 +35,7 @@ header nav {
 /*card-section*/
 
 .card-container {
+  background-color: #1c1c1c;
   display: flex;
   flex-wrap: wrap;
 }
@@ -19,6 +46,7 @@ header nav {
   align-items: center;
   padding: 20px;
   width: 16.6666666667%;
+  color: white;
 }
 
 .card-container .card-item img {
