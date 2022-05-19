@@ -1,10 +1,21 @@
 @extends('layouts.layout')
 
-@section('lista')
+@section('content')
 <h2>Lista dei fumetti</h2>
 <ul>
-    @foreach($fumetti as $fumetto)
+    <!--@dump($fumetti)-->
+
+    <!--@foreach($fumetti as $fumetto)
     <li>{{ $fumetto['title'] }}</li>
-    @endforeach
+    @endforeach-->
+    <div class="card-container">
+        @foreach($fumetti as $fumetto)
+        <div class="card-item">
+            <img src="{{ $fumetto['thumb'] }}" alt="">
+            <span>{{ $fumetto['series'] }}</span>
+        </div>
+        @endforeach
+    </div>
+
 </ul>
 @endsection
