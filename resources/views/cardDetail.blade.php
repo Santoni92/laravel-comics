@@ -1,7 +1,7 @@
 
-@extends('layouts.layout')
+@extends('layouts.layoutDetail')
 
-@section('content')
+@section('contentDetail')
 <div class="card-item">
     <img src="{{ $fumetti['thumb'] }}" alt="">
     <span>{{ $fumetti['series'] }}</span>
